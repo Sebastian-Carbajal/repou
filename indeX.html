@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Responsive s/Mobile First</title>
+    <link rel="stylesheet" href="c-s-s/stilo.css">
+</head>
+<body>
+	<!-- Div del news util para media queries -->
+	<div id="aboutUs">
+  <!-- fila de logo + nav --> 
+ <header class="menu">
+ 	  <nav>		
+				<a href="./index.html">
+    		  <img src="Imagenes/gpfans-logo.jpg" alt="Logo de F1" class="logo">
+  		  </a>  
+				<ul>
+					<li><a href="./index.html" class="link">Inicio</a></li>
+					<li><a href="./news.html" class="link">Novedades</a></li>
+					<li><a href="./gallery.html" class="link">Galería</a></li>
+					<li><a href="./cast.html" class="link">Pilotos-Equipos</a></li>
+					<li><a href="./contact.html" class="link">Contacto</a></li> 
+  		  </ul>
+    </nav>
+ </header>
+ <!-- cierre de fila logo + nav -->
+
+ <!-- Empieza la sección de noticias -->
+ 	<!-- Empieza el carrusel de noticias -->
+<main>
+	<div class="data">
+<fieldset>
+	<legend>Datos del contacto</legend>
+
+<form method="post">
+
+<label for="nombre">Nombre</label>
+<input type="text" name="Nombre" placeholder="Inserte Nombre" id="nombre"><br><br>
+<label for="apellido">Apellido</label>
+<input type="text" name="apellido" placeholder="Inserte Apellido" id="apellido"><br><br>
+<label for="email">Email<label>
+<input type="text" name="email" placeholder="Inserte Correo" id="email"><br><br>	
+
+<label>Género:</label>
+<select name="genero" class="genero">
+	<option value="N">--</option>
+	<option value="F">Femenino</option>
+	<option value="M">Masculino</option>
+<select><br><br>
+
+<div>	
+<label for="aceptar">Aceptar que no es un robot</label>
+<input type="checkbox" name="aceptar" value="1" id="aceptar"></div><br><br>
+
+<textarea cols="50" rows="8" placeholder="Algún comentario?"></textarea><br>
+
+<input type="reset" value="Limpiar todo" class="reset" />
+<input type="submit" value="Enviar todo" class="submit" />
+
+</form>
+</fieldset>
+<br><br>
+
+<fieldset>
+<legend>Una encuesta para conocerte mas</legend>
+<form>
+	<h2><label for="radio" class="f1-quiz">Cuál es tu equipo favorito?</label></h2>
+	<div>Mercedes</div>
+	<input type="radio" name="Equipo" value="Mercedes"/>
+
+	<div>Red Bull</div>
+	<input type="radio" name="Equipo" value="Red Bull"/>
+
+	<div>Ferrari</div>
+	<input type="radio" name="Equipo" value="Ferrari"/>
+
+	<div>McLaren</div>
+	<input type="radio" name="Equipo" value="McLaren">
+
+	<div>Alpine</div>
+	<input type="radio" name="Equipo" value="Alpine"/>
+
+	<div>Alpha Tauri</div>
+	<input type="radio" name="Equipo" value="Alpha Tauri"/>
+
+	<div>Aston Martin</div>
+	<input type="radio" name="Equipo" value="Aston Martin"/>
+
+	<div>Williams</div>
+	<input type="radio" name="Equipo" value="Williams"/>
+
+	<div>Alfa Romeo</div>
+	<input type="radio" name="Equipo" value="Alfa Romeo"/>
+
+	<div>Haas</div>
+	<input type="radio" name="Equipo" value="Haas"/>
+</form>
+
+<h2>A qué piloto apoyás esta temporada?</h2>
+
+<form method="post">
+	<select name="Piloto" id="piloto">
+		<option value="a">---</option>
+		<option value="MV1">Max Verstappen</option>
+		<option value="LH44">Lewis Hamilton</option>
+		<option value="VB77">Valtteri Bottas</option>
+		<option value="SP11">Sergio Pérez</option>
+		<option value="CS55">Carlos Sainz</option>
+		<option value="LN4">Lando Norris</option>
+		<option value="CL16">Charles Leclerc</option>
+		<option value="DR3">Daniel Ricciardo</option>
+		<option value="PG10">Pierre Gasly</option>
+		<option value="FA14">Fernando Alonso</option>
+		<option value="EO31">Esteban Ocon</option>
+		<option value="SV5">Sebastian Vettel</option>
+		<option value="LS18">Lance Stroll</option>
+		<option value="YT22">Yuki Tsunoda</option>
+		<option value="GR63">George Russell</option>
+		<option value="GZ24">Guanyu Zhou</option>
+		<option value="NL6">Nicholas Latifi</option>
+		<option value="AA23">Alexander Albon</option>
+		<option value="MS47">Mick Schumacher</option>
+		<option value="NM9">Nikita Mazepin</option>
+	</select>
+
+</form>
+
+<h2>Quién crees que es el mejor piloto de todos los tiempos</h2>
+<div class="legendsQuiz">
+	<input type="radio" name="Leyenda" value="Michael Schumacher"/>
+	<label>Michael Schumacher</label>
+	<input type="radio" name="Leyenda" value="Lewis Hamilton"/>
+	<label>Lewis Hamilton</label>
+	<input type="radio" name="Leyenda" value="Sebastian Vettel"/>
+	<label>Sebastian Vettel</label>
+	<input type="radio" name="Leyenda" value="Fernando Alonso"/>
+	<label>Fernando Alonso</label>
+	<input type="radio" name="Leyenda" value="Juan Manuel Fangio"/>
+	<label>Juan Manuel Fangio</label>
+	<input type="radio" name="Leyenda" value="Alain Prost"/>
+	<label>Alain Prost</label>
+    <input type="radio" name="Leyenda" value="Ayrton Senna"/>
+	<label>Ayrton Senna</label>
+</div>
+
+</fieldset>
+</form>
+	</div>
+</main>
+<!-- Finaliza main -->
+
+<!-- Inician las publicidades con el aside -->
+<aside>
+	<figure>
+		<a href="https://aulacm.com/curso-de-community-manager-en-madrid">
+			<img src="https://aulacm.com/wp-content/uploads/2014/11/curso-community.svg"/>
+				<figcaption>Click aqui</figcaption>
+		</a>
+	</figure>
+
+	<figure>
+		<a href="https://aulacm.com/curso-de-community-manager-en-madrid">
+			<img src="https://aulacm.com/wp-content/uploads/2014/11/curso-community.svg"/>
+				<figcaption>Click aqui</figcaption>
+		</a>
+	</figure>
+</aside>
+<!-- Finalizan las publicidades con aside -->
+<!-- Se pone esa publicidad como ejemplo -->
+
+<!-- Inicio del pié de página -->
+<footer>
+ <div class="footerWord">
+	 <h4 class="footerTxt">Siguenos en nuestras redes</h4>
+ </div>
+ <div class="footerSocial">
+		<a href="https://www.instagram.com/gpfansnl/" target="_blank" class="footerPage">
+			<img src="Imagenes/instagram_logo.png" alt="Logo de instagram" class="footerImg">
+		</a>
+		<a href="https://twitter.com/GPFansES" target="_blank" class="footerPage">
+			<img src="Imagenes/twitter-logo.png" alt="Logo de twitter" class="footerImg">
+		</a>
+ </div>
+		<div class="footerWord">
+		<p class="footerTxt">We enjoy it as one</p>
+	     <p class="footerTxt--right">All rights reserved ©</p>
+	   </div>
+</footer>		
+<!-- Fin del pié de página -->
+</div>
+</body>
+</html>
